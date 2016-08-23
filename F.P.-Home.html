@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      ASCENDANCE Online-(Home)
+    </title>
+    <link href="jqueryui/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/F.P.-Home.css">
+  </head>
+  
+  <body>
+    
+    
+  <div id="banner">
+      <a href="F.P.-Home.html" id="Home">
+            <img id="GameLogo" src="Images/ascendancelogo.png">
+      </a>
+    <nav>
+      <ul>
+          
+        <li>
+          <a class="navbar" href="F.P.-Game.html">
+            Game
+          </a>
+        </li>
+        <li>
+          <a class="navbar" href="F.P.-About.html">
+           About/Development
+          </a>
+        </li>
+        <li>
+          <a class="navbar" href="F.P.-Community.html">
+           Community
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div style="display:none;" id="loading">
+    <img style="float:right; width:100px;
+    height:80px;" src="Images/loading.gif">
+    <h4 style="color:red; float:right;">Loading...</h4>
+    </div>
+  </div>
+<div id="tabs">
+  <ul style="background-color:#000;">
+    <li id="welcome" style="background-color:#000080;">
+      <a style="color:red;" href="#tabs-1">
+        Welcome!
+      </a>
+    </li>
+    <li id="latestnews" style="background-color:#000080;">
+      <a style="color:red;" href="#tabs-2">
+        Latest News
+      </a>
+    </li>
+    <li id="summary" style="background-color:#000080;">
+      <a style="color:red;" href="#tabs-3">
+        Summary
+      </a>
+    </li>
+  </ul>
+  <div id="tabs-1">
+    <div class="Welcome">
+      <div id="Intro1">
+        <p id="p1">
+          <b>Welcome to the Official website of "<b><i>ASCENDANCE Online</i></b>". The MMO RPG that takes place in the Realm of Dominion where players must battle mythical monsters and beings, Explore foreign territories, and even fight each other to gain power and prestige.</b>
+        </p>
+        <img id="img1" src="Images/img1.jpg">
+      </div>
+      <div id="Intro2">
+        <img id="img2" src="Images/img2.jpg">
+        <p id="p2">
+         <b>In this world, strength and recogition determine your position in society and those with great strength are awarded the chance to learn new forms of Magic and accept quests that require great skill and cooperation with other Adventurers. Experience this brand new title that is exclusive to console!</b>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="tabs-2">
+    <div class="Latest_News">
+        <div class="subscribediv">
+           <p id="p3">
+       <b>The game is currently in pre-pre-alpha but if you wish to learn more and receive updates, subscribe to our weekly email service!</b>
+          </p>
+          <button class="showsubscribeform">Subscribe</button>
+        </div>
+        <form id="EmailForm">
+         <h4>Email:</h4><input type="text" name="email"><br>
+         <div onclick="setTimeout(subscribealert,1000)">
+          <input id="submit" type="button" onclick="reset()" value="Submit">
+          </div>
+        </form>
+    </div>
+  </div>
+  <div id="tabs-3">
+    <div id="summary">
+      <p id="p4"><b>In the Realm of Dominion, Towns, Villages, and Cities are under the threat of Monstrous beings called</b> <i>"Mythics"</i>. <b>The only people capable of fighting this threat are the adventurers. They are the one hope that can eradicate this enemy and save this world.</b>
+      </p>
+      <p id="p5"><b>However, In recent years, the reported sightings of Mythics have declined greatly and the once proclaimed Adventurers that would save this world have let the Fame and Power infect them and the people who place their faith in them. Now, the only Adventurers that the people will even ask for help are the glorified Adventurers that have become greedy and lazy.</b></p>
+      
+      <p id="p6"><b>New Adventurers are joining the ranks, and its up to them to protect the world from the impending threat.</b></p>
+    </div>
+  </div>
+</div>
+    <div id="footer">
+      <div id="footer2">
+        <img id="FantasyLogo" src="Images/FantasyLogo.JPG">
+      <ul>
+        <li>
+          <a style="margin-top:20px;" class="footer" href="">
+            Privacy Policy
+          </a>
+        </li>
+        <li>
+          <a  style="margin-top:20px;" class="footer" href="">
+            Support
+          </a>
+        </li>
+        <li>
+          <a class="footer" href="">
+            Feedback
+          </a>
+        </li>
+      </ul>
+      </div>
+      <p id="closing"><b>!&copy; 2016  Fantasy Gaming, Corp.</b></p>
+    </div>
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="jqueryui/jquery-ui.js"></script>
+    <script src="jsfolder/main.js"></script>
+    <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+<script>
+function reset() {
+    document.getElementById("EmailForm").reset();
+}
+</script>
+<script>
+  function subscribealert(){
+    alert('You are now subscribed! Be sure to check your email for updates.');
+    $('#loading').hide('fast');
+  }
+</script>
+  </body>
+</html>

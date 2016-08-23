@@ -1,0 +1,174 @@
+body{
+   background-image: url("../Images/background.jpg");
+   background-size:1400px 1050px;
+   background-repeat:no-repeat;
+}
+
+#banner{
+  height:80px;
+  border:1px solid #999;
+  margin-bottom:5px;
+}
+
+nav{
+  margin-top:2px;
+  padding-top:8px;
+  padding-bottom:8px;
+  background-color:rgba(0,0,0,0.7);
+  float:left;
+  border:1px solid green;
+   
+}
+
+.navbar{
+  position:relative;
+  text-decoration:none;
+  border:1px solid red;
+  color:#059940;
+  font-size:22px;
+
+}
+
+li{
+  display:inline;
+  margin-right:25px;
+}
+
+#Home{
+  text-decoration:none;
+  font-size:0;
+  height:80px;
+  width:100px;
+}
+
+#GameLogo{
+  position:relative;
+  height:70px;
+  width:90px;
+  float:left;
+}
+
+#tabs{
+   clear:both;
+   height:650px;
+   width:950px;
+   margin:0 auto;
+   background-image: url("../Images/backgroundtabs.jpg");
+   background-size:100% 100%;
+}
+
+.Welcome{
+  text-align:center;
+  width:950px;
+  margin:0 auto;
+}
+
+
+#Intro1{
+  width:800px;
+  height:300px;
+  margin:auto;
+  
+}
+
+#p1{
+  text-align:center;
+  padding-top:40px;
+  width:320px;
+  float:left;
+  color:#803610;
+}
+
+#img1{
+  width:320px;
+  height:210px;
+}
+
+#Intro2{
+  clear:both;
+  width:800px;
+  height:300px;
+  margin:auto;
+}
+
+#img2{
+  float:left;
+  width:320px;
+  height:210px;
+}
+
+#p2{
+  text-align:center;
+  width:350px;
+  float:left;
+  margin-left:80px;
+  color:#803610;
+}
+
+.Latest_News{
+  text-align:center;
+}
+
+#EmailForm{
+  margin-top:25px;
+  display:none;
+}
+
+#p3{
+  margin-top:40px;
+  text-align:center;
+  clear:both;
+  color:#803610;
+}
+
+#p4{
+   color:#803610;
+   text-align:center;
+   font-size:20px;
+}
+
+#p5{
+  color:#803610;
+  text-align:center;
+  font-size:20px;
+}
+
+#p6{
+  color:#803610;
+   text-align:center;
+   font-size:20px;
+}
+
+#footer{
+  height:140px;
+  margin:0 auto;
+  text-align:center;
+  border:1px solid #000;
+  background-color:rgba(9,9,9,0.65);
+}
+#footer2{
+  width:500px;
+  margin:auto;
+}
+
+#FantasyLogo{
+  float:left;
+  margin-top:5px;
+  margin-right:15px;
+  width:75px;
+  height:75px;
+}
+
+.footer{
+  position:relative;
+  text-decoration:none;
+  color:#007595;
+  font-size:22px;
+  float:left;
+  margin-right:25px;
+}
+
+#closing{
+  color:#990010;
+  clear:both;
+}
