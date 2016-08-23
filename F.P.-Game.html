@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      ASCENDANCE Online-(Game)
+    </title>
+    <link href="jqueryui/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/F.P.-Game.css">
+  </head>
+  
+  <body>
+    
+  <div id="banner">
+      <a href="F.P.-Home.html" id="Home">
+            <img id="GameLogo" src="Images/ascendancelogo.png">
+      </a>
+    <nav>
+      <ul>
+          
+        <li>
+          <a class="navbar" href="F.P.-Game.html">
+            Game
+          </a>
+        </li>
+        <li>
+          <a class="navbar" href="F.P.-About.html">
+           About/Development
+          </a>
+        </li>
+        <li>
+          <a class="navbar" href="F.P.-Community.html">
+           Community
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div style="display:none;" id="loading">
+      
+    <img style="float:right; width:100px;
+    height:80px;" src="Images/loading.gif">
+    <h4 style="color:red; float:right;">Loading...</h4>
+    </div>
+  </div>
+    
+<div id="tabs">
+  <ul style="background-color:#000;">
+    <li id="welcome" style="background-color:#000080;">
+      <a style="color:red;" href="#tabs-1">
+        How do you play it and on what Platform?
+      </a>
+    </li>
+    <li id="latestnews" style="background-color:#000080;">
+      <a style="color:red;" href="#tabs-2">
+        Controller Format and In-game UI
+      </a>
+    </li>
+    <li id="summary" style="background-color:#000080;">
+      <a style="color:red;" href="#tabs-3">
+        Quests, Graphics, and Growth
+      </a>
+    </li>
+  </ul>
+  <div id="tabs-1">
+    <div style="text-align:center;">
+      <div class="div1">
+        <p class="p1">
+          Ascendance Online is an MMO-RPG that uses the same fighting mechanics that you would see in games such as World of Warcraft, Elder Scrolls Online, and Blade and Soul Online where as you move close to enemy Mobs or begin to attack them, they will start attaking you and focus solely on you until they are defeated or switch their "aggro" to another adventurer or follower.
+        </p>
+      </div>
+        
+      <div class="div1">
+        <p class="p1">
+          What makes this game unique when compared to other MMO-RPGs is that it is exclusive to console devices. Our organization has developed and formatted this MMO-RPG to focus solely on using console controllers for PvP combat and Dungeon Crawling. It is so we can further expand the use of MMO-RPG Games into a wider audience as many players around the world that own consoles have yet to be introduced to this genre of gaming.
+        </p>
+        
+      </div>
+    </div>
+    
+  </div>
+  <div id="tabs-2">
+    <div style="text-align:center;">
+      <div class="div2">
+       <p class="p2">
+       After several hours of research and Focus Grouping, we were able to develop a default format on the controller when players first go through the tutorial. It is designed for players to activate commands and execute actions within a comfortable reach for your fingers. However, this control format isn't restricted to only our default as you may go to settings and use the mapping feature to remove or switch controls according to your preference.
+       </p>
+      </div>
+       <img id="controllerimg" src="Images/controllermapping.jpg">
+      <div class="div2">
+       <p class="p2">
+         Now, of course, with the introduction of the controller, the User Interface inside the game changes as well. The UI was adjusted to fit the possible combinations that can be made with the controller. Of course, limits were placed on what a player can perform in combat such as the amount of abilities a player is capable of having in total. However, this does not affect the "Buff" or "Debuff" mechanic in game and does not take away from the excitement and enjoyment from playing.
+       </p>
+      </div>
+          
+    </div>
+  </div>
+  <div id="tabs-3">
+    <div style="text-align:center;">
+      <div class="div3">
+        <p class="p3">
+          And finally, one of the deciding factors that make a game spectacular, the world itself. Ascendance Online takes place in the Realm of Dominion where the world is filled with countless dungeons that require skilled communication and strategy to conquer. Thnks to our amazing storyboard artists and animators, they are creating a beautiful environment that leave people in awe of how gorgeous it is. We have had beta testers tell us they would play the game only for the art itself. So we can guarantee that this game will look amazing and have exciting play mechanics.
+        </p>
+      </div>
+        <img id="graphic1" src="Images/graphic1.jpg">
+      <div class="div3">
+        <p class="p3">As the game continues to gain popularity, the game will be updated with new lands to explore and quests to accept that offer endless hours of fun. The current world itself is estimated to have 60+ hours of content on the main questline and 50 hours worth of side-quests. This does not include special events that occur throughout the year such as Eve's Harvest, Winter's shroud, and many more! These events bring with them special quests and items that are only available during certain periods of time.
+        </p>
+      </div>
+      <img id="worldmap" src="Images/worldmap.jpg">
+    </div>
+  </div>
+</div>
+    
+    <div id="footer">
+      <div id="footer2">
+        <img id="FantasyLogo" src="Images/FantasyLogo.JPG">
+      <ul>
+        <li>
+          <a style="margin-top:20px;" class="footer" href="">
+            Privacy Policy
+          </a>
+        </li>
+        <li>
+          <a  style="margin-top:20px;" class="footer" href="">
+            Support
+          </a>
+        </li>
+        <li>
+          <a class="footer" href="">
+            Feedback
+          </a>
+        </li>
+      </ul>
+      </div>
+      <p id="closing"><b>!&copy; 2016  Fantasy Gaming, Corp.</b></p>
+    </div>
+    
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="jqueryui/jquery-ui.js"></script>
+    <script src="jsfolder/main2.js"></script>
+     <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+  </body>
+</html>
